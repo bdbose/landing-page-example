@@ -1,0 +1,47 @@
+.presented-wrapper {
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .present-title {
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #374b5c;
+    margin-bottom: 19px;
+  }
+  .present-des {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+    color: #374b5c;
+    width: 30%;
+  }
+  .present-display {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    align-items: center;
+  }
+  .present-span {
+    display: flex;
+    span {
+      display: block;
+      width: 10px;
+      height: 10px;
+      margin: 0 10px;
+      background-color: #374b5c;
+      border-radius: 50%;
+    }
+  }
+}

@@ -1,0 +1,125 @@
+.quote-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 130px;
+  .profile {
+    width: 97.6px;
+    height: 97.6px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 30px;
+  }
+  .profile-name {
+    font-size: 26px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: left;
+    color: #374b5c;
+    margin: 16px 0;
+  }
+  .star-wrapper {
+    svg {
+      fill: #00dbd0;
+      width: 19.7px;
+      height: 19.9px;
+      margin: 0 5px;
+    }
+  }
+  .profile-des {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #374b5c;
+    margin: 20px 0;
+  }
+  .quote-span {
+    display: flex;
+    span {
+      width: 11px;
+      height: 11px;
+      margin: 0 8px 0 7px;
+      border: solid 1px #00dbd0;
+      border-radius: 50%;
+    }
+  }
+  .letter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 207px;
+    .letter-title {
+      font-size: 36px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      text-align: center;
+      color: #374b5c;
+      margin-bottom: 19px;
+    }
+    .letter-des {
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.31;
+      letter-spacing: normal;
+      text-align: center;
+      color: #374b5c;
+      width: 40%;
+    }
+    .letter-input {
+      width: 569px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 69px;
+      margin-top: 66px;
+      input {
+        background: 0;
+        outline: none;
+        border: 0;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #374b5c;
+        padding-left: 50px;
+      }
+      button {
+        width: 167px;
+        height: 100%;
+        border-radius: 30px;
+        border: 0;
+        outline: none;
+        background-color: #00dbd0;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+  }
+  .leaf {
+    position: absolute;
+    left: -643px;
+  }
+}

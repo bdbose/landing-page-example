@@ -1,0 +1,37 @@
+.nature-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  img {
+    margin: 15px 0;
+  }
+  .nature-title {
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #374b5c;
+    margin-bottom: 19px;
+  }
+  .nature-des {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+    color: #374b5c;
+    width: 30%;
+  }
+  .nature-display {
+    margin-top: 80px;
+    img {
+      margin: 0 20px;
+    }
+  }
+}
